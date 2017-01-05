@@ -4,7 +4,7 @@ MAINTAINER Jeremiah Harmsen <jeremiah@google.com>
 
 RUN cd && git clone --recurse-submodules https://github.com/tensorflow/serving
 
-RUN cd serving/tensorflow
+RUN ls
 
 
 CMD ["/bin/bash"]
